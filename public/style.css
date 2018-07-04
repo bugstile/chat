@@ -1,0 +1,148 @@
+* { 
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color:#fbfbf5;
+    overflow-y:scroll;
+    font: 1em Helvetica, Arial;
+}
+
+#btn{
+    font-size:1.7em;
+    color:forestgreen;
+}
+
+#thumbs{
+    font-size:1.3em;
+    color:forestgreen;
+}
+
+.inputMessage {
+    bottom: 0;
+    height: 60px;
+    left: 0;
+    outline: none;
+    border:none;
+    padding-left: 20px;
+    position: fixed;
+    right: 0;
+    width: 85%;
+    border-top:1px solid lightgray;
+}
+
+.typingfield {
+    bottom: 0;
+    height: 35px;
+    margin-bottom:60px;
+    left: 0;
+    outline: none;
+    border:none;
+    padding-left: 20px;
+    position: fixed;
+    right: 0;
+    width: 85%;
+    color:blue;
+}
+
+form input{
+    background-color:#fbfbf5;
+    font: 1em Helvetica, Arial;
+}
+
+button{
+    bottom: 0;
+    height: 60px;
+    outline: none;
+    position: fixed;
+    right:0;
+    width: 15%;
+    box-shadow:none;
+    background-color:#fbfbf5;
+    border:none;
+    border-style:inherit;
+    border-top:0.05em solid lightgray;
+    border-left:1px solid lightgray;
+}
+
+.messages { 
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    word-wrap:break-word;
+    overflow-x:auto;
+    padding: 10px 0px 10px 10px;
+    height:100%;
+    width: 85%;
+}
+
+.messages li { 
+    padding: 10px 10px;
+}
+
+.users {
+    list-style-type: none;
+    word-wrap:break-word;
+    overflow-x:auto;
+    top: 0;
+    height:100%;
+    position: fixed;
+    right: 0;
+    width: 15%;
+    border-left:1px solid lightgray;
+    padding: 10px 0px 0px 0px;
+    padding-bottom:90px;
+}
+
+.users li { 
+    padding: 10px 10px;
+}
+
+.user {
+    color:forestgreen;
+}
+
+.userToUser {
+    color:cornflowerblue;
+}
+
+.server {
+    color:blue;
+}
+
+.datboi{
+    height:100%;
+    width:100%;
+    background-repeat: no-repeat;
+    background-image: url(oshit.png);
+    background-position: bottom;
+    position:fixed;
+    bottom:0;
+    z-index:-1;
+    margin-bottom:160px;
+}
+
+.action {
+    color:forestgreen;
+    font-style: italic;
+}
+
+.serverToUser {
+    color:red;
+    font-style: italic;
+}
+
+.chat{
+    padding-bottom:90px;
+    height:100%;
+}
+
+ul {
+    list-style: none;
+    word-wrap: break-word;
+}
+
+span{
+    color:forestgreen;
+}
